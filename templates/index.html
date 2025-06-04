@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../static/style.css" />
+  <title>Karakura Store</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1 class="title">Karakura Store</h1>
+    <div class="search-section">
+      <form class="search-form">
+        <input type="text" class="search-input" placeholder="Buscar produtos, marcas e muito mais..." />
+        <button type="submit" class="search-button">Buscar</button>
+      </form>
+      <div class="filters">
+        <div class="filter-group">
+          <label for="category">Categoria:</label>
+          <select id="category" class="filter-select">
+            <option value="">Todas</option>
+            <option value="vehicles">Veículos</option>
+            <option value="supermarket">Supermercado</option>
+            <option value="technology">Tecnologia</option>
+            <option value="house">Casa e Móveis</option>
+            <option value="homeappliances">Eletrodomésticos</option>
+            <option value="sports">Esporte e Fitness</option>
+            <option value="tools">Ferramentas</option>
+            <option value="builds">Construção</option>
+            <option value="commerces">Indústria e Comércio</option>
+            <option value="petshops">Pet Shop</option>
+            <option value="health">Saúde</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="availability">Disponibilidade:</label>
+          <select id="availability" class="filter-select">
+            <option value="all">Todos</option>
+            <option value="discount">Desconto</option>
+            <option value="shipshipping">Frete Grátis</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sort">Ordenar por:</label>
+          <select id="sort" class="filter-select">
+            <option value="relevance">Relevância</option>
+            <option value="title-asc">Título (A-Z)</option>
+            <option value="title-desc">Título (Z-A)</option>
+            <option value="newest">Mais Recentes</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="./produtos.html">Produtos</a></li>
+      <li><a href="#">Ofertas</a></li>
+      <li><a href="#">Cupons</a></li>
+      <li><a href="#">Supermercados</a></li>
+      <li><a href="#">Moda</a></li>
+      <li><a href="#">Frutas</a></li>
+      <li><a href="./carrinho.html">Carrinho</a></li>
+      <li><a href="./cadastro.html">Crie sua conta</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <img class="banner-image" src="../static/img/ban.jpeg" alt="banner" />
+  </div>
+
+  <main>
+    <div class="limit1">
+      <section class="prod-container cont-one">
+        <a class="prod-link" href="./produto.html">
+          <div class="prod">
+            <img class="prod-image" src="../static/img/acs1.png" alt="produto" />
+            <div class="prod-info">
+              <p class="prod-name">Chapéu Kisuke Urahara</p>
+              <p class="prod-price">R$119,90</p>
+              <p class="prod-plus">Frete Grátis</p>
+            </div>
+          </div>
+        </a>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/acs2.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Colar Quincy</p>
+            <p class="prod-price">R$49,90</p>
+            <p class="prod-plus">Frete Grátis</p>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/acs3.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Pulseira Soul Society</p>
+            <p class="prod-price">R$33,49</p>
+            <p class="prod-plus">Frete Grátis</p>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/acs4.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Colar Vasto Lorde</p>
+            <p class="prod-price">R$39,99</p>
+            <p class="prod-plus">Frete Grátis</p>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/acs5.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Chaveiros Soul Society</p>
+            <p class="prod-price">R$14,99</p>
+            <p class="prod-plus">Frete Grátis</p>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/acs6.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Anel Sexto Espada</p>
+            <p class="prod-price">R$66,66</p>
+            <p class="prod-plus">Frete Grátis</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="limit2">
+      <h2 class="subtit" style="margin-left: 10%; margin-top: 2%">
+        Inspirado no último visto
+      </h2>
+      <section class="prod-container">
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp1.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Puro Concentrado 450ML</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$21,90
+              </p>
+            </s>
+            <p class="prod-price">R$19,90</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp2.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Concentrado +Intenso 1,5L</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$37,90
+              </p>
+            </s>
+            <p class="prod-price">R$34,90</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp3.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Concentrado 4X Limpo 1L</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$32,90
+              </p>
+            </s>
+            <p class="prod-price">R$29,90</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp4.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Concentrado Lavanda 1,5L</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$37,90
+              </p>
+            </s>
+            <p class="prod-price">R$32,90</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp5.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Perfume Collection 1,35L</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$34,90
+              </p>
+            </s>
+            <p class="prod-price">R$31,49</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/limp6.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Downy Concentrado White Clean 1,5L</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$37,90
+              </p>
+            </s>
+            <p class="prod-price">R$32,90</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="limit3">
+      <h2 class="subtit" style="margin-left: 10%; margin-top: 2%; color: #363846">
+        Mais vendidos em Tênis
+      </h2>
+      <section class="prod-container">
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis1.png" alt="produto" style="object-fit: fill" />
+          <div class="prod-info">
+            <p class="prod-name">
+              Puma Caven 2.0 Bdp Masculino Adultos 396330
+            </p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$589
+              </p>
+            </s>
+            <p class="prod-price">R$323,95</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis2.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Olympikus Only 2 Masculino 437119023012</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$199,99
+              </p>
+            </s>
+            <p class="prod-price">R$156,99</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis3.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Olympikus Flutua Feminino Adultos</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$199,99
+              </p>
+            </s>
+            <p class="prod-price">R$169,15</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis4.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">Olympikus Voa 2 2 Feminino 43533261</p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$299,99
+              </p>
+            </s>
+            <p class="prod-price">R$239,99</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis5.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">
+              Olympikus Casual Easy 2 Feminino Adultos 43605213
+            </p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$199,99
+              </p>
+            </s>
+            <p class="prod-price">R$129,99</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+
+        <div class="prod">
+          <img class="prod-image" src="../static/img/tenis6.png" alt="produto" />
+          <div class="prod-info">
+            <p class="prod-name">
+              Tênis Masculino E Feminino Asfalto Olympikus
+            </p>
+            <s>
+              <p class="prod-price" style="font-size: 16px; color: #363846">
+                R$279,99
+              </p>
+            </s>
+            <p class="prod-price">R$174,66</p>
+            <i>
+              <p class="prod-plus">FULLBRING</p>
+            </i>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="ad-container">
+      <iframe width="50%" height="435" src="https://www.youtube.com/embed/HL3eTEn0KXE?si=X6CCgb_nDaPmiu17"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="ad-text">
+        <h2 class="ad-title">Bleach TYBW - Parte Final!</h2>
+        <p class="ad-desc">
+          Thousand-Year Blood War (TYBW) segue o arco final do mangá, onde a
+          Soul Society, liderada por Ichigo Kurosaki, é atacada pelo
+          Wandenreich, um exército de Quincys, liderados por Yhwach, com o
+          objetivo de derrubar o Rei das Almas e destruir a Sociedade das
+          Almas. A trama envolve a luta entre os Shinigamis (Ceifadores de
+          Almas) e os Quincys, enquanto Ichigo tenta descobrir o plano de
+          Yhwach e proteger a Sociedade das Almas e o Rei das Almas.
+        </p>
+        <p class="ad-button">MAYURI VIDEO - Assine Já</p>
+      </div>
+    </section>
+
+    <section class="audio-container">
+      <p class="audio-title">Sereitei Sounds Plus - Assine Já</p>
+      <p class="audio-text">
+        Assinando o Sereitei Sounds Plus você têm acesso a mais de 999
+        músicas. Escute músicas como o número um!
+      </p>
+      <audio autoplay="autoplay" controls="controls">
+        <source src="../static/sounds/numberone.mp3" type="audio/mp3" />
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Karakura Store - Todos os direitos reservados, Tite Kubo.
+    </p>
+  </footer>
+</body>
+
+</html>

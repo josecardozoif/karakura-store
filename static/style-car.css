@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: avantebold;
+  src: url(../static/fonts/AvanteBold.ttf)
+}
+
+@font-face {
+  font-family: avantemid;
+  src: url(../static/fonts/AvanteMid.ttf)
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #d37319;
+  color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2%;
+  min-height: 80px;
+}
+
+.title {
+  font-family: avantebold;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+  align-self: center;
+}
+
+.subtit{
+  font-family: avantebold;
+  font-size: 25px;
+  color: #f4f4f4;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #363846;
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+li a {
+  font-family: avantebold;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 14px 21px;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+li a:hover{
+  color: #d37319;
+  transform: scale(1.05);
+  background-color: #f4f4f4;
+}
+
+
+.search-section {
+  font-family: avantebold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 800px;
+  gap: 8px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 650px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-button {
+  font-family: avantebold;
+  background-color: #363846;
+  color: #f4f4f4;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #f4f4f4;
+  color: #d37319;
+  transform: scale(1);
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-group label {
+  font-size: 12px;
+  color: #f4f4f4;
+  white-space: nowrap;
+}
+
+.filter-select {
+  padding: 4px 6px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+  min-width: 100px;
+}
+
+.banner{
+  height: 0;
+}
+
+.banner-image{
+  width: 100%;
+  height: 850px;
+  object-fit: inherit;
+}
+
+.limit1{
+  position: relative;
+  background-image: linear-gradient(rgb(0, 0, 0, 0) 0%, rgb(255, 255, 255) 45%);
+}
+
+.prod{
+  width: 50%;
+  margin: 1% 25%;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex: auto;
+}
+
+.prod:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.prod-image{
+  width: 30%;
+  height: 300px;
+  object-fit: fill;
+}
+
+.prod-info{
+  padding: 15px;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.prod-name{
+  font-family: avantebold;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 1%;
+  width: 100%;
+}
+
+.prod-price{
+  font-family: avantemid;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 1%;
+}
+
+.prod-plus{
+  color: #d37319;
+  font-family: avantebold;
+  margin: 1%;
+  padding-bottom: 14%;
+}
+
+.first-button {
+  margin-left: 40%;
+}
+
+.prod-button {
+  font-family: avantemid;
+  background-color: #363846;
+  border: #363846 2px solid;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 45px;
+  
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.prod-button:hover {
+  background-color: #ffffff;
+  color: #d37319;
+  border: #ffffff 2px solid;
+}
+
+footer {
+  background-color: #363846;
+  color: #f4f4f4;
+  text-align: center;
+  font-family: avantemid;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: auto;
+}

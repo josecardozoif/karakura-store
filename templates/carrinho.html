@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/style-car.css" />
+    <title>Carrinho - Karakura Store</title>
+</head>
+
+<body>
+    <div class="header">
+    <h1 class="title">Karakura Store</h1>
+    <div class="search-section">
+      <form class="search-form">
+        <input type="text" class="search-input" placeholder="Buscar produtos, marcas e muito mais..." />
+        <button type="submit" class="search-button">Buscar</button>
+      </form>
+      <div class="filters">
+        <div class="filter-group">
+          <label for="category">Categoria:</label>
+          <select id="category" class="filter-select">
+            <option value="">Todas</option>
+            <option value="vehicles">Veículos</option>
+            <option value="supermarket">Supermercado</option>
+            <option value="technology">Tecnologia</option>
+            <option value="house">Casa e Móveis</option>
+            <option value="homeappliances">Eletrodomésticos</option>
+            <option value="sports">Esporte e Fitness</option>
+            <option value="tools">Ferramentas</option>
+            <option value="builds">Construção</option>
+            <option value="commerces">Indústria e Comércio</option>
+            <option value="petshops">Pet Shop</option>
+            <option value="health">Saúde</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="availability">Disponibilidade:</label>
+          <select id="availability" class="filter-select">
+            <option value="all">Todos</option>
+            <option value="discount">Desconto</option>
+            <option value="shipshipping">Frete Grátis</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sort">Ordenar por:</label>
+          <select id="sort" class="filter-select">
+            <option value="relevance">Relevância</option>
+            <option value="title-asc">Título (A-Z)</option>
+            <option value="title-desc">Título (Z-A)</option>
+            <option value="newest">Mais Recentes</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Cupons</a></li>
+            <li><a href="#">Supermercados</a></li>
+            <li><a href="#">Moda</a></li>
+            <li><a href="#">Frutas</a></li>
+            <li><a href="./cadastro.html">Crie sua conta</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img class="banner-image" src="../static/img/ban-car.jpg" alt="banner" />
+    </div>
+
+    <main>
+
+        <div class="limit1">
+            <section class="prod-container">
+                <div class="prod">
+                    <img class="prod-image" src="../static/img/acs1.png" alt="produto" />
+                    <div class="prod-info">
+                        <p class="prod-name">Chapéu Kisuke Urahara</p>
+                        <p class="prod-price">R$119,90</p>
+                        <p class="prod-plus">Frete Grátis</p>
+                        <a class="prod-button first-button" href="./pagamento.html">Comprar</a>
+                        <a class="prod-button" href="./produto.html">Ver Produto</a>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <img class="prod-image" src="../static/img/acs2.png" alt="produto" />
+                    <div class="prod-info">
+                        <p class="prod-name">Colar Quincy</p>
+                        <p class="prod-price">R$49,90</p>
+                        <p class="prod-plus">Frete Grátis</p>
+                        <a class="prod-button first-button" href="./pagamento.html">Comprar</a>
+                        <a class="prod-button" href="./produto.html">Ver Produto</a>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <img class="prod-image" src="../static/img/acs3.png" alt="produto" />
+                    <div class="prod-info">
+                        <p class="prod-name">Pulseira Soul Society</p>
+                        <p class="prod-price">R$33,49</p>
+                        <p class="prod-plus">Frete Grátis</p>
+                        <a class="prod-button first-button" href="./pagamento.html">Comprar</a>
+                        <a class="prod-button" href="./produto.html">Ver Produto</a>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <img class="prod-image" src="../static/img/acs4.png" alt="produto" />
+                    <div class="prod-info">
+                        <p class="prod-name">Colar Vasto Lorde</p>
+                        <p class="prod-price">R$39,99</p>
+                        <p class="prod-plus">Frete Grátis</p>
+                        <a class="prod-button first-button" href="./pagamento.html">Comprar</a>
+                        <a class="prod-button" href="./produto.html">Ver Produto</a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Karakura Store - Todos os direitos reservados, Tite Kubo.</p>
+    </footer>
+
+</body>
+
+</html>
