@@ -23,10 +23,12 @@ O projeto possui páginas para navegação, cadastro e login de usuários, catá
 ## Páginas
 
 ### Home
+![image URL](https://github.com/josecardozoif/karakura-store/blob/main/home.png?raw=true)
 
 Página principal da loja, responsável por apresentar o conteúdo inicial, banners, categorias e produtos disponíveis.
 
 ### Login e Cadastro
+![image URL](https://github.com/josecardozoif/karakura-store/blob/main/login.png?raw=true)
 
 Área destinada à autenticação e ao cadastro de usuários.
 
@@ -42,6 +44,8 @@ Página responsável pela apresentação dos produtos disponíveis na loja, perm
 Também existe uma página específica para exibição dos detalhes de cada produto.
 
 ### Carrinho
+![image URL](https://github.com/josecardozoif/karakura-store/blob/main/carrinho.png?raw=true
+)
 
 Página responsável por apresentar os produtos selecionados pelo usuário antes da finalização da compra.
 
