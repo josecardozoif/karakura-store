@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: avantebold;
-  src: url(../public/fonts/AvanteBold.ttf)
+  src: url(./fonts/AvanteBold.ttf)
 }
 
 @font-face {
   font-family: avantemid;
-  src: url(../public/fonts/AvanteMid.ttf)
+  src: url(./fonts/AvanteMid.ttf)
 }
 
 body {
